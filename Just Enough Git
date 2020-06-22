@@ -61,3 +61,17 @@ git remote show origin
 
 # After commiting changes on lcal repo
 git push --set-upstream origin master. #. origin is local repo and master is remote branch
+
+
+# Getting data from rep
+git fetch   # this doesnt merge
+git pull 	# Merge automatically
+
+# Branches and merging
+git branch secondary
+git checkout secondary
+
+
+
+
+
