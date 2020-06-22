@@ -68,8 +68,17 @@ git fetch   # this doesnt merge
 git pull 	# Merge automatically
 
 # Branches and merging
-git branch secondary
-git checkout secondary
+git branch 						# check existing branches
+git branch secondary			# create new branch
+git checkout secondary			# select a branch
+
+# to merge branches select the branch that you want to merge int and then merge
+git chekout master
+git merge secondary
+
+
+
+
 
 
 
