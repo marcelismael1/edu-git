@@ -1,0 +1,54 @@
+Just Enough Git
+#########################
+
+git init
+git clone
+
+########################### LOCAL REPOSITORY ########################
+git init 
+
+
+git config --(global, local, system) (config)
+
+git config --global user.name "Marcel Ismael"
+git config --global user.email "marcel.ismael@cloudera.com"
+git config --list
+
+# To get the status
+git status
+
+# To stage a file
+git add .
+git add filename
+git rm --cached filename.	# unstage a certain file
+git reset 					# unstage all files 
+
+# to commit
+
+git commit -m 'YOUR MESSAGE recommended < 50 chars'
+git commit --amend filename  # to modify
+
+# Ignore files
+make file .gitignore
+add pattern, files, directories and exceptions
+
+# explore the repo
+
+git log
+git log -n 1 # show count
+git log --graph
+git log --stat
+git shortlog
+
+# compare commits
+git log -p 			# Shows log with changes
+git diff be434b4a..00019447			# compare between 2 commits
+git diff firstCommitID..secondCommitID
+
+# show uncommitted changes
+
+git diff filename		# show uncommited changes
+
+########################### REMOTE REPOSITORY ########################
+git clone
+
