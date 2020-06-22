@@ -76,6 +76,8 @@ git checkout secondary			# select a branch
 git chekout master
 git merge secondary
 
+confilctttt
+
 
 
 
