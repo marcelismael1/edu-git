@@ -52,3 +52,12 @@ git diff filename		# show uncommited changes
 ########################### REMOTE REPOSITORY ########################
 git clone
 
+
+git remote add origin <github link>
+git remote -v
+git remote show
+git remote show origin
+
+
+# After commiting changes on lcal repo
+git push --set-upstream origin master. #. origin is local repo and master is remote branch
