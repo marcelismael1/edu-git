@@ -81,7 +81,11 @@ git diff master..secondary 		# compare files
 git diff master...secondary		# compare differnces
 
 
-confilctttt
+# Resolve conflicts. some confilicts resolves automatically
+# Resolve conflicts manually, if you are behind the remote repo
+# annd you add some thing in the same place where the remote has data
+# you will have conflict when you pull the repo, and the conflicted file 
+# will hace conflict banner with the conflicted data, you should resolve it manually
 
 
 
