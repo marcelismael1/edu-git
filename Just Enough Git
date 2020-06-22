@@ -76,6 +76,9 @@ git checkout secondary			# select a branch
 git chekout master
 git merge secondary
 
+# compare branches
+git diff master..secondary 		# compare files
+git diff master...secondary		# compare differnces
 
 
 
